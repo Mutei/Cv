@@ -152,110 +152,112 @@ class Cv extends StatelessWidget {
               const SizedBox(
                 width: 20,
               ),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const ReusedContainer(
-                    title: "WORK EXPERIENCE",
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const WorkRow(
-                    icon: Icons.circle,
-                    title: "Dorm Management System",
-                    iconColour: kCircleColor,
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const WorkRow(
-                    icon: Icons.circle,
-                    title: "Volunteer Management System",
-                    iconColour: kCircleColor,
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const WorkRow(
-                    icon: Icons.circle,
-                    title: "Covid-19 Tracking System",
-                    iconColour: kCircleColor,
-                  ),
-                  const SizedBox(
-                    height: 50,
-                  ),
-                  const ReusedContainer(
-                    title: "Education History",
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const WorkRow(
-                    icon: FontAwesomeIcons.graduationCap,
-                    title: "Bachelor in Software Engineering",
-                    iconColour: kMainColor,
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const WorkRow(
-                    icon: FontAwesomeIcons.graduationCap,
-                    title: "Graduated from EMU",
-                    iconColour: kMainColor,
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const WorkRow(
-                    icon: FontAwesomeIcons.graduationCap,
-                    title: "Year of Graduation 2023",
-                    iconColour: kMainColor,
-                  ),
-                  const SizedBox(
-                    height: 50,
-                  ),
-                  const ReusedContainer(
-                    title: "Certifications",
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const WorkRow(
-                    icon: Icons.grade,
-                    title: "Covid-19 Tracking System",
-                    iconColour: kMainColor,
-                  ),
-                  Container(
-                    padding: const EdgeInsets.only(left: 25),
-                    child: const Text(
-                      "Best Graduation Project 2022",
-                      style: TextStyle(
-                        fontSize: 10,
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const ReusedContainer(
+                      title: "WORK EXPERIENCE",
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const WorkRow(
+                      icon: Icons.circle,
+                      title: "Dorm Management System",
+                      iconColour: kCircleColor,
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const WorkRow(
+                      icon: Icons.circle,
+                      title: "Volunteer Management System",
+                      iconColour: kCircleColor,
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const WorkRow(
+                      icon: Icons.circle,
+                      title: "Covid-19 Tracking System",
+                      iconColour: kCircleColor,
+                    ),
+                    const SizedBox(
+                      height: 50,
+                    ),
+                    const ReusedContainer(
+                      title: "Education History",
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const WorkRow(
+                      icon: FontAwesomeIcons.graduationCap,
+                      title: "Bachelor in Software Engineering",
+                      iconColour: kMainColor,
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const WorkRow(
+                      icon: FontAwesomeIcons.graduationCap,
+                      title: "Graduated from EMU",
+                      iconColour: kMainColor,
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const WorkRow(
+                      icon: FontAwesomeIcons.graduationCap,
+                      title: "Year of Graduation 2023",
+                      iconColour: kMainColor,
+                    ),
+                    const SizedBox(
+                      height: 50,
+                    ),
+                    const ReusedContainer(
+                      title: "Certifications",
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const WorkRow(
+                      icon: Icons.grade,
+                      title: "Covid-19 Tracking System",
+                      iconColour: kMainColor,
+                    ),
+                    Container(
+                      padding: const EdgeInsets.only(left: 25),
+                      child: const Text(
+                        "Best Graduation Project 2022",
+                        style: TextStyle(
+                          fontSize: 10,
+                        ),
                       ),
                     ),
-                  ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const WorkRow(
-                    icon: Icons.grade,
-                    title: "Dorm Management System",
-                    iconColour: kMainColor,
-                  ),
-                  Container(
-                    padding: const EdgeInsets.only(left: 25),
-                    child: const Text(
-                      "Best Project 2020",
-                      style: TextStyle(
-                        fontSize: 10,
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    const WorkRow(
+                      icon: Icons.grade,
+                      title: "Dorm Management System",
+                      iconColour: kMainColor,
+                    ),
+                    Container(
+                      padding: const EdgeInsets.only(left: 25),
+                      child: const Text(
+                        "Best Project 2020",
+                        style: TextStyle(
+                          fontSize: 10,
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ],
           ),
